@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Prompt } from "next/font/google";
+import { siteConfig } from "@/lib/data";
 import "./globals.css";
 
 const prompt = Prompt({
@@ -10,9 +11,8 @@ const prompt = Prompt({
 });
 
 export const metadata: Metadata = {
-  title: "Open work | รับทำเว็บไซต์ - Freelance Web Designer",
-  description:
-    "รับทำเว็บไซต์สวย ใช้งานง่าย ราคาเป็นกันเอง โดย Open work ฟรีแลนซ์ออกแบบเว็บไซต์ พอร์ตโฟลิโอ, Landing Page, เว็บไซต์คลินิก, เว็บงานรับปริญญา/อีเวนต์",
+  title: `${siteConfig.name} | รับทำเว็บไซต์ - Freelance Web Designer`,
+  description: `รับทำเว็บไซต์สวย ใช้งานง่าย ราคาเป็นกันเอง — ${siteConfig.name} ฟรีแลนซ์ออกแบบเว็บไซต์ พอร์ตโฟลิโอ, Landing Page, เว็บไซต์คลินิก, เว็บงานรับปริญญา/อีเวนต์`,
   keywords: [
     "รับทำเว็บไซต์",
     "Freelance Web Designer",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   openGraph: {
-    title: "Open work | รับทำเว็บไซต์",
+    title: `${siteConfig.name} | รับทำเว็บไซต์`,
     description: "รับทำเว็บไซต์สวย ใช้งานง่าย ราคาเป็นกันเอง",
     locale: "th_TH",
     type: "website",

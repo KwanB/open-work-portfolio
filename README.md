@@ -1,4 +1,4 @@
-# Open work — Portfolio & บริการรับทำเว็บไซต์
+# Made by KwanB — Portfolio & บริการรับทำเว็บไซต์
 
 เว็บไซต์ Single Page สำหรับแนะนำตัวและขายบริการรับทำเว็บไซต์
 สร้างด้วย Next.js (App Router) + TypeScript + Tailwind CSS

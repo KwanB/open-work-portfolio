@@ -2,7 +2,7 @@
 // แก้ไขราคา บริการ ผลงาน คำรับรอง และช่องทางติดต่อได้ที่นี่
 
 export const siteConfig = {
-  name: "Open work",
+  name: "Made by KwanB",
   role: "Freelance Web Designer",
   tagline: "รับทำเว็บไซต์สวย ใช้งานง่าย ราคาเป็นกันเอง",
   contact: {

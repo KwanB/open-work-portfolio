@@ -20,7 +20,7 @@ export default function About() {
           </h2>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-slate-600 dark:text-slate-300">
             <p>
-              Open work คือแบรนด์ฟรีแลนซ์ที่รับออกแบบและพัฒนาเว็บไซต์สำหรับบุคคลและธุรกิจขนาดเล็ก
+              Made by KwanB คือแบรนด์ฟรีแลนซ์ที่รับออกแบบและพัฒนาเว็บไซต์สำหรับบุคคลและธุรกิจขนาดเล็ก
               ตั้งแต่พอร์ตโฟลิโอส่วนตัว แลนดิ้งเพจสินค้า ไปจนถึงเว็บไซต์คลินิกและงานอีเวนต์
             </p>
             <p>
@@ -43,7 +43,7 @@ export default function About() {
         <div className="relative">
           <div className="aspect-[4/5] w-full rounded-2xl bg-gradient-to-br from-slate-800 to-slate-600 shadow-xl">
             <div className="flex h-full items-center justify-center">
-              <span className="text-6xl font-bold text-white/10">OW</span>
+              <span className="text-6xl font-bold text-white/10">KB</span>
             </div>
           </div>
           <div className="absolute -bottom-6 -left-6 hidden rounded-xl bg-white p-5 shadow-lg ring-1 ring-slate-100 dark:bg-slate-800 dark:ring-slate-700 sm:block">

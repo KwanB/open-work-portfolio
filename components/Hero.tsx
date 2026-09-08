@@ -14,11 +14,35 @@ export default function Hero() {
       className="relative flex min-h-screen items-center overflow-hidden bg-gradient-to-b from-slate-800 via-slate-800 to-slate-900 pt-24"
     >
       <div
-        className="pointer-events-none absolute -right-40 -top-40 h-[32rem] w-[32rem] rounded-full bg-gold-400/20 blur-3xl"
+        className="pointer-events-none absolute -right-24 -top-24 h-[28rem] w-[28rem] rotate-12 bg-gradient-to-br from-gold-400/25 via-gold-500/10 to-transparent blur-3xl [clip-path:polygon(50%_0%,100%_100%,0%_100%)]"
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute -left-32 bottom-0 h-96 w-96 rounded-full bg-gold-400/10 blur-3xl"
+        className="pointer-events-none absolute -left-20 bottom-0 h-96 w-96 -rotate-[15deg] bg-gradient-to-tr from-slate-400/15 via-slate-300/5 to-transparent blur-3xl [clip-path:polygon(0%_0%,100%_50%,0%_100%)]"
+        aria-hidden="true"
+      />
+      <div
+        className="pointer-events-none absolute left-1/4 top-1/2 h-64 w-64 -translate-y-1/2 rotate-45 bg-gradient-to-b from-gold-300/10 to-transparent blur-3xl [clip-path:polygon(50%_0%,100%_100%,0%_100%)]"
+        aria-hidden="true"
+      />
+      <svg
+        className="pointer-events-none absolute right-16 top-1/4 h-20 w-20 text-gold-300/50"
+        viewBox="0 0 100 100"
+        fill="none"
+        aria-hidden="true"
+      >
+        <polygon points="50,6 94,88 6,88" stroke="currentColor" strokeWidth="1.5" />
+      </svg>
+      <svg
+        className="pointer-events-none absolute left-16 top-20 h-12 w-12 text-white/20"
+        viewBox="0 0 100 100"
+        fill="none"
+        aria-hidden="true"
+      >
+        <polygon points="50,6 94,88 6,88" stroke="currentColor" strokeWidth="1.5" />
+      </svg>
+      <div
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-900 to-transparent"
         aria-hidden="true"
       />
 
